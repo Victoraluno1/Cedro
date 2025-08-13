@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CedroApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CedroApplication.class, args);
+		System.out.println("Cedro Application Started");
 	}
 
 }
